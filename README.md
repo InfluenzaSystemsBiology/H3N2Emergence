@@ -4,13 +4,14 @@ On the basis of these preliminarily identified emerging variants, we developed a
 # Useage
 1) Raw HA sequence data used in this model is located in Data folder. Total 44592 HA1 seuqences of human H3N2 IAVs in "1968-2018.fasta" and 22 HA1 sequences of vaccines in "histroy_vaccine.fasta". Process_Data.m can load data into matlab for further analysis. 
 2) "Bayesian model' folder contains source code of the emergence Bayesian model. User can run Main_XX_XX.m for 7 antigenic drifts:
-  Main_BR07_PE09.m
+```  Main_BR07_PE09.m
   Main_CA04_BR07.m
   Main_FU02_CA04.m
   Main_PE09_TX12.m
   Main_SY97_FU02.m
   Main_TX12_HK14.m
   Main_TX12_SWZ13.m
+```  
   data for those scripts is located in Bayesian model/Data (SpatialUse_1994_2009.mat and SpatialUse_2009_2016.mat). 
 3) Sequence-based antigenic distances and cartographies are caculated by GG-MTSL (https://doi.org/10.1093/bioinformatics/bty457). Data and codes are available at http://sysbio.cvm.msstate.edu/files/GG-MTSL/. 
 # Feedback
